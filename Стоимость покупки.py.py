@@ -1,0 +1,7 @@
+A = int(input())
+B = int(input())
+N = int(input())
+F = (B * N)
+K = (F % 100)
+R = (A * N) + (F//100)
+print(R, K)
