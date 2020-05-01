@@ -1,0 +1,5 @@
+N = list(map(int, input().split()))
+M = list(map(int, input().split()))
+n = set(N)
+m = set(M)
+print(*sorted(n & m))
